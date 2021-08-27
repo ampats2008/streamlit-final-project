@@ -1,0 +1,11 @@
+streamlit
+streamlit.components.v1
+numpy
+pandas
+csv
+statistics
+datetime
+random
+pydeck
+matplotlib.pyplot
+matplotlib.colors
