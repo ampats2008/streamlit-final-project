@@ -1,6 +1,5 @@
 numpy
 pandas
-random
 pydeck
 matplotlib.pyplot
 matplotlib.colors
