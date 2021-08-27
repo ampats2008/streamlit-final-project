@@ -40,7 +40,7 @@ class MultiApp:
 
     def run(self):
         app = st.sidebar.selectbox(
-            'Page Navigation:',
+            'Select an App to Display:',
             self.apps,
             format_func=lambda app: app['title'])
 
