@@ -57,6 +57,7 @@ def app():
 
     # input for search
     st.sidebar.header('Filters: ')
+    st.sidebar.write('Use the following filters to search through the dataset for used cars.')
     carPriceRange = st.sidebar.slider("Price Range: ",0,int(df['price'].max()),(0,100000),format='$%d')
     carCondition = st.sidebar.radio("Condition: ", seriesList[1])
     carManufac = st.sidebar.selectbox("Manufacturer: ", seriesList[0])
