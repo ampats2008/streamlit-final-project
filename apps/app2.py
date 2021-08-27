@@ -157,8 +157,8 @@ def app():
 
     # show heat map
     st.title(f'Map of {option} Listings:')
-    st.write(f"""Each point on the map represents a listing for a used car; the radius is based on the price of the car, 
-    and the color is chosen based on the region it was posted in. Hover over a point to reveal more useful info about the listing.""")
+    st.write(f"""Each point on the map represents a listing for a used car; each point's size is based on the price of the car, 
+    and its color is chosen based on the region it was posted in. Hover over a point to reveal more useful info about the listing.""")
     st.markdown('##') #for whitespace
     scattermap(dfsList)
 
