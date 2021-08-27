@@ -33,8 +33,8 @@ st.set_page_config(layout="wide")
 app = MultiApp()
 
 # Add all your application here
-app.add_app("Search for a Listing", app1.app)
-app.add_app("Listings by Region", app2.app)
+app.add_app("Search for a Used Car", app1.app)
+app.add_app("Used Cars by Region", app2.app)
 
 # The main app
 app.run()
