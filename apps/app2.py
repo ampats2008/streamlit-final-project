@@ -145,7 +145,7 @@ def app():
     # Build freq df
     dfsList, stateListings = buildDfsForMap(df, option)
 
-    col1, col2, col3 = st.beta_columns((1,2,1))
+    col1, col2, col3 = st.columns((1,2,1))
 
     # Build / display bar chart
     fig = barChart(option, colorPicked)
