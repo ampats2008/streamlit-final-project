@@ -95,6 +95,7 @@ def app():
 
     # ** DISPLAY DATA AS HTML TILES **
     st.subheader('Catalog View:')
+    st.write('This view allows you to view each listing as if it was part of an ecommerce site. It was constructed using custom HTML/CSS code.')
     # Need stylesheet and starting flex container div
     htmlContainer="""
     <style>
